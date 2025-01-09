@@ -8,34 +8,20 @@
     <link rel="stylesheet" href="styles/card.css">
     <script src="src/Components/CardNews.js" defer></script>
     <script src="src/Components/TituloDinamico.js" defer></script>
+    <script src="src/Components/CardPosts.js" defer></script>
 </head>
 
 <body>
 
-    <div class="container">
-        <div class="card">
-            <div class="card__left">
-                <span>Mateus Bizzo</span>
-                <h1>EVE Soluções Digitais Contrata</h1>
-                <p>Procura desenvolvedores que saibam Angular.js
-                    e Node.js para trabalhar em um projeto de
-                    grande porte. A empresa oferece um salário
-                    de R$ 10.000,00 e benefícios. Interessados
-                    devem enviar o currículo para o e-mail
-                </p>
-            </div>
-
-            <div class="card__right">
-                <img src="assets/bobba-fett.png" alt="">
-            </div>
-        </div>
+    <div class="app-root">
+        <card-posts autor="Mateus Bizzo" titulo="Titulo PRO" descricao="Descrição PRO"
+            link="www.google.com"></card-posts>
+        </card-posts>
     </div>
 
     <titulo-dinamico titulo="Primeiro titulo dinamico"></titulo-dinamico>
-    <card-news></card-news>
-
-    <card-news></card-news>
     <titulo-dinamico titulo="Titulo diferente"></titulo-dinamico>
+
 
 </body>
 
