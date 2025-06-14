@@ -4,6 +4,7 @@
   "description": "Este projeto foi criado para fins de estudo e prática do framework Angular. Alguns dos conceitos abordados foram:",
   "main": "index.js",
   "scripts": {
+    "start": "npx tsc && node build/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
